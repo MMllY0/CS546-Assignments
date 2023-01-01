@@ -1,0 +1,31 @@
+deepEquality:
+const first = {a: 2, b: 3};
+const second = {a: 2, b: 4};
+const third = {a: 2, b: 3};
+const forth = {a: {sA: "Hello", sB: "There", sC: "Class"}, b: 7, c: true, d: "Test"}
+const fifth  = {c: true, b: 7, d: "Test", a: {sB: "There", sC: "Class", sA: "Hello"}}
+const obj1 = {1: [1]};
+const obj2 = {a: [{sA: "Hello"}, {sB: "There"}, {sC: "Cladadwss"}], b: 7};
+const obj3 = {a: [{sB: "There"}, {sA: "Hello"}, {sC: "Cladadwss"}], b: 7};
+const obj4 = {1: [1, {2:"a", 1:"b"}]};
+const obj5 = {1: [1, {1:"b", 2:"a"}]};
+const obj6 = {name: {first: ["Patrick", "M"], last: "Hill"},  age: 46, numbers: [1,2,3]};
+const obj7 = {name: {last: "Hill", first: ["Patrick", "M"]},  age: 46, numbers: [1,2,3]};
+const obj8 = { 1: 1, 2: [1, 2,3,[4,5]] } ;
+const obj9 = { 1: 1, 2: [1, 2,3,[5,4]] } ;
+const obj10 = { 1: 1, 2: [1, 2, {"a": 1， 2：“b"}] } ;
+const obj11 = { 1: 1, 2: [1, 2, {2：“b", "a": 1}] } ;
+
+commonKeysValues:
+const obj1 = {1: [1, 2, {1:2}], 2:2};
+const obj2 = {1: [1, 2, {1:2}], 3:2, 2:2};
+const third = {a: 2, b: {c: true, d: false}};
+val1 = [1, 2, {1:2}]
+val2 = [1, 2, {1:2}]
+
+const first = {name: {first: "Patrick", last: "Hill", ms: { p: "Parth"}}, age: 46};
+const second = {school: "Stevens", name: {first: "Patrick", last: "Hill", ms: { pt: "PT", p: "Parth"}}};
+const third = {a: 2, b: {c: true, d: false}};
+const forth = {b: {c: true, d: false}, foo: "bar"};
+const obj1 = {a:2, b:{a:true}, c:{d:true, e:true}};
+const obj2 = {a:3, b:{d:true}, c:{e:true, d:true}};

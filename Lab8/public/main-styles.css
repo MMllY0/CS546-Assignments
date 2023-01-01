@@ -1,0 +1,99 @@
+body {
+    font-size: medium;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    max-width: fit-content;
+    margin: auto;
+}
+
+p { 
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+h1 {
+    color:black;
+    font-size: 16pt;
+}
+
+h2 {
+    color: black;
+    font-size: medium;
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 16pt;
+}
+
+.error {
+    color: brown;
+    font-weight: bold;
+}
+
+.error-found {
+    text-decoration: underline;
+}
+
+.about {
+    color: black;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchForm {
+    border: 1cm;
+    font-size: 5mm;
+}
+
+.not-found {
+    font-style: normal;
+}
+
+.search-again {
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration-color:azure ;
+}
+
+.example {
+    color: black;
+    font-weight: lighter;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+}
+
+li {
+    background-color: darkgray;
+}
+
+a:hover{
+    color: gold;
+    text-decoration: wavy;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+dt {
+    text-decoration-line: underline;
+}
+
+dd {
+    font-size: medium;
+    font-style: oblique;
+}
+
+dd:hover {
+    color: cornflowerblue;
+}

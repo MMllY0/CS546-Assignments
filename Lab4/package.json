@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "mongodb": "^4.10.0"
+  },
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Xinming Yang 10458564",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title class="title">People Finder</title>
+        <link rel="stylesheet" href="../public/main-styles.css">
+    </head>
+
+    <body>
+        <main>
+            <h1 class="title">People Finder</h1>
+            <p> This website allows user to search people's information by name or ID. 
+                If a name is given, up to 20 results will be returned.</p>
+            <form action="/searchpeople" method="POST" class="search-form">
+                <label class="label" for="name">Search</label>
+                <input class="input" id="name" name="searchPersonName"> 
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>

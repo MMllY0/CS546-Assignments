@@ -1,0 +1,11 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Xinming Yang 10458564",
+  "license": "ISC"
+}

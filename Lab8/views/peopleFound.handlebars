@@ -1,0 +1,16 @@
+<div>
+<main>
+<h1 class="title">{{title}}</h1>
+<h2 class="searchPersonName"> Search Name: {{searchPersonName}}</h2>
+    <ul>
+        {{#each results}}
+        <li>
+            <a href="/persondetails/{{this.id}}">{{this.firstName}} {{this.lastName}}</a>
+        </li>
+        {{/each}}
+    </ul>
+<a class="search-again" href="/">Try again</a>
+</main>
+
+</div>
+

@@ -1,0 +1,16 @@
+<h1>{{document_title}}</h1>
+<form id="registration-form" action="/register" method="post">
+    <label for="usernameInput">Please enter a username: </label>
+    <input id="usernameInput" name="username">
+    <br>
+    <label for="passwordInput">Please enter a password: </label>
+    <input id="passwordInput" name="password" type="password">
+    <br>
+    <button class="submit" type="submit">Submit</button>
+</form>
+
+{{#if error_message}}
+<p class="error"> {{this.error_message}}</p>
+{{/if}}
+<br>
+<a href="/">Already have an account? Click here to log-in</a>

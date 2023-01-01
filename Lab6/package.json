@@ -1,0 +1,17 @@
+{
+  "name": "cs-546-lab-6",
+  "version": "1.0.0",
+  "description": "my lab 6",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node ./tasks/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Xinming Yang 10458564",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0"
+  }
+}
